@@ -31,6 +31,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
         .addPlace(_titlecontroller.text, _pickedImage!);
     Navigator.of(context).pop();
   }
+//W tej apce trzeba dodac google maps api
 
   @override
   Widget build(BuildContext context) {
